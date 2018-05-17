@@ -1,0 +1,377 @@
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/**********************************
+GENERAL
+***********************************/
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+  font-family: 'Istok Web', sans-serif;
+  font-weight: 700;
+}
+
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+
+
+/**********************************  
+HEADING
+***********************************/
+
+header {
+  float: left; 
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  background: #000;
+  border-color: #fff;
+}
+
+h1 {
+  font-family: 'Istok Web', sans-serif; 
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: 700;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+header a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0 10px 0;
+}
+
+
+/**********************************
+NAV
+***********************************/
+
+nav {
+  text-align: center;
+  font-family: 'Istok Web', sans-serif;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  background: #000;
+  color: whitesmoke;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+   color: whitesmoke;
+   font-weight: 700;
+   padding: 15px 10px;
+ }
+
+nav a:visited {
+  color: grey;
+}
+
+nav a.selected, nav a:hover {
+  color: whitesmoke;
+  font-size: 100%;
+  transform: translate3d(0px, 16px);
+  background: #000;
+  border-bottom: 2px solid whitesmoke;
+  padding: 6px 10px 6px;
+  transition: all 125ms ease-in-out
+}
+
+
+
+/**********************************
+BODY
+***********************************/
+body {
+  background-color: #070707;
+  font-family: 'Istok Web', sans-serif;
+  color: whitesmoke;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #000;
+  color: #bdc3c7;
+}
+
+#gallery img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: whitesmoke;
+}
+
+#gallery a {
+  text-decoration: none;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  background: #000;
+  border-color: whitesmoke;
+}
+
+footer img {
+  margin: 0 5px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+footer img:hover {
+  max-width: 23px;
+  max-height: 23px;
+}
+
+footer p {
+  color: #999;
+}
+
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 10px;
+}
+
+p a {
+  text-decoration: none;
+  color: grey;
+}
+
+
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  color: grey;
+}
+
+#primary li {
+  list-style: none;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter-wrap2.png');
+}
+
+
+
+/**********************************
+NEON
+***********************************/
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+li a {
+  color: whitesmoke;
+}
+
+li a:hover {
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+li a:hover {
+  color: whitesmoke;
+}
+
+nav a.selected, nav a:hover {
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+  color: whitesmoke;
+}
+
+a h1,h2:hover {
+  color: whitesmoke;
+}
+
+h2 {
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+a h1 {
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+
+}
+
+p a {
+  color: grey;
+}
+
+p a:hover {
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+p a:hover {
+  color: whitesmoke;
+}
+
+
+
+/** Glowing for webkit **/
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px whitesmoke, 0 0 70px whitesmoke, 0 0 80px whitesmoke, 0 0 100px whitesmoke;
+  }
+  to {
+    text-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px whitesmoke, 0 0 35px whitesmoke, 0 0 40px whitesmoke, 0 0 50px whitesmoke;
+  }
+}
+
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px whitesmoke, 0 0 50px whitesmoke, 0 0 60px whitesmoke;
+  }
+  to {
+    text-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px whitesmoke, 0 0 25px whitesmoke, 0 0 30px whitesmoke;
+  }
+}
+
+
+/** Glow for mozilla **/
+
+@-moz-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px whitesmoke, 0 0 70px whitesmoke, 0 0 80px whitesmoke, 0 0 100px whitesmoke;
+  }
+  to {
+    text-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px whitesmoke, 0 0 35px whitesmoke, 0 0 40px whitesmoke, 0 0 50px whitesmoke;
+  }
+}
+
+@-moz-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px whitesmoke, 0 0 50px whitesmoke, 0 0 60px whitesmoke;
+  }
+  to {
+    text-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px whitesmoke, 0 0 25px whitesmoke, 0 0 30px whitesmoke;
+  }
+}
+
+/** Glow **/
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px whitesmoke, 0 0 70px whitesmoke, 0 0 80px whitesmoke, 0 0 100px whitesmoke;
+  }
+  to {
+    text-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px whitesmoke, 0 0 35px whitesmoke, 0 0 40px whitesmoke, 0 0 50px whitesmoke;
+  }
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px whitesmoke, 0 0 50px whitesmoke, 0 0 60px whitesmoke;
+  }
+  to {
+    text-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px whitesmoke, 0 0 25px whitesmoke, 0 0 30px whitesmoke;
+  }
+}
