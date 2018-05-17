@@ -37,3 +37,7 @@ node_modules/
 *.normalize.css
 *.responsive.css
 *.all.min.css
+
+.vscode/
+
+*.package-lock.json
