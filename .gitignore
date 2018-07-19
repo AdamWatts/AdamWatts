@@ -32,12 +32,12 @@ $RECYCLE.BIN/
 ### node_modules ###
 node_modules/
 
-*.gulpfile.js
+.gulpfile.js
 
-*.normalize.css
-*.responsive.css
-*.all.min.css
+.normalize.css
+.responsive.css
+.all.min.css
 
 .vscode/
 
-*.package-lock.json
+.package-lock.json
