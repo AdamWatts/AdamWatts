@@ -176,13 +176,19 @@ footer {
   border-color: whitesmoke;
 }
 
+footer svg {
+  margin: 0 5px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
 footer img {
   margin: 0 5px;
   max-width: 20px;
   max-height: 20px;
 }
 
-footer img:hover {
+footer img:hover, svg:hover {
   max-width: 23px;
   max-height: 23px;
 }
