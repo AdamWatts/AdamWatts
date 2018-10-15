@@ -46,7 +46,7 @@ header {
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
-  background: #000;
+  background: #040404;
   border-color: #fff;
 }
 
@@ -86,7 +86,7 @@ nav {
   font-family: 'Istok Web', sans-serif;
   padding: 10px 0;
   margin: 20px 0 0;
-  background: #000;
+  background: #040404;
   color: whitesmoke;
 }
 
@@ -114,7 +114,7 @@ nav a.selected, nav a:hover {
   color: whitesmoke;
   font-size: 100%;
   transform: translate3d(0px, 16px);
-  background: #000;
+  background: #040404;
   border-bottom: 2px solid whitesmoke;
   padding: 6px 10px 6px;
   transition: all 125ms ease-in-out
@@ -126,7 +126,7 @@ nav a.selected, nav a:hover {
 BODY
 ***********************************/
 body {
-  background-color: #040404;
+  background-color: #0a0a0a;
   font-family: 'Istok Web', sans-serif;
   color: whitesmoke;
 }
@@ -141,7 +141,7 @@ body {
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #000;
+  background-color: #040404;
   color: #bdc3c7;
 }
 
@@ -172,7 +172,7 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  background: #000;
+  background: #040404;
   border-color: whitesmoke;
 }
 
